@@ -1,0 +1,116 @@
+
+/* Your CSS Code here. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scroll from 100vw */
+}
+.nav_bar{
+    display:flex;
+	gap:10px;
+	align-items:center;
+	justify-content:space-between;
+
+	background-color:orange;
+	padding: 10px 30px;
+	margin-bottom:0;
+	
+}
+.nav-links{
+	display:flex;
+	gap:30px;
+}
+.nav-links a{
+    color: black;
+	text-decoration:none;
+	font-size:20px;
+}
+.nav-links a:hover{
+	transform:scale(1.2)
+}
+.brand{
+	font-size:20px;
+}
+
+.layout{
+    width: 100vw;
+	background-color:black;
+	color:white;
+	margin-top:0;
+
+	padding-top: 20px; 
+    min-height: 100vh;
+}
+.contact-form{
+    display:flex;
+	flex-direction:column;
+    gap:10px;	
+	flex: 0 0 300px;
+}
+.form{
+	padding:8px;
+	border:1px solid orange;
+	border-radius:15px;
+	background-color:black;
+	margin:10px 20px;
+	flex: 1 0 10px;
+	box-sizing:border-box;
+}
+.landing-page{
+	display:flex;
+	gap:20px;
+	align-items:center;
+	margin:20px;
+}
+h2{
+	margin:20px;
+}
+.btn-log{
+	width:150px;
+	padding:7px;
+	background-color:orange;
+	border-radius:10px;
+	border: 1px solid orange;
+	cursor:pointer;
+}
+.btn-sub{
+	width:150px;
+	padding:7px;
+	background-color:orange;
+	border-radius:10px;
+	border: 1px solid orange;
+	margin:1px auto;
+	cursor:pointer;
+}
+table{
+	border:1px solid orange;
+	margin:30px auto;
+	color:orange;
+	border-collapse: collapse;
+
+	width:600px;
+	height:400px;
+}
+th{
+	border:1px solid orange;
+	padding: 20px;
+}
+td{
+	border-right:1px solid orange;
+	padding:20px;
+}
+tr:last-child{
+	background-color:orange;
+	color:black;
+}
+.sec-1{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
